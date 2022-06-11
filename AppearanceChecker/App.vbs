@@ -30,11 +30,6 @@ Sub main()
     appereBookName = Application.GetOpenFilename()  '対象のファイル名を選択
     Set appereBook = Workbooks.Open(appereBookName) '対象ファイルをオブジェクトに格納
     
-
-    
-
-    
-    
     'ここまでで、出力先ファイルと対象ファイルの指定、取り込みが完了
 
     
